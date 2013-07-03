@@ -36,5 +36,41 @@ GitHub Basic Commands
 
 'git push [remote name] [branch]'
 
+## Work on other's repository: Folk a repo
+
+### Step 1: Fork the other's repository on GitHub.com 
+
+* go to the repository's GitHub link, [For example](https://github.com/MathCraft/shifrin-mathematica-book)
+* click the Fork button on top right corner
+* it will appear on your repository page, and there will be [a HTTP Clone link](https://github.com/mathcraftdlou/shifrin-mathematica-book)
+
+### Step 2: Clone it to local computer. Go to the root GitHub directory on your computer, and
+
+'git clone [HTTP clone link]'
+
+### Step 3: Confiture remotes
+
+* change directory: 
+'cd [other's repository folder name]'
+
+* assign the repository to a new remote name:
+'git remote add [new remote name] [the other's repository GitHub link, such as 
+ http://github.com/MathCraft/shifrin-mathematica-book.git]'
+
+* Pulls in changes not present in local repository:
+'git fetch [new remote name]'
+
+## Remotes management
+
+### View existing remotes
+'git remote -v'
+
+### Renaming a remote
+'git remote rename [old remote name] [new remote name]
+
+### Removing a remote
+'git remote rm [remote name]'
 
 
+
+ 
