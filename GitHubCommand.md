@@ -3,7 +3,7 @@ GitHub Basic Commands
 
 ### For Markdown file [.md] style, see [this page](http://support.iawriter.com/help/kb/general-questions/markdown-syntax-reference-guide)
 
-## Add a file
+## Add/modify a file
 
 ### Step 1: in the right directory on your local computer, create your file in a terminal.
 
