@@ -9,32 +9,32 @@ GitHub Basic Commands
 
 ### Step 2: go to the right directory, commit the file
 
-`ggit add [file name]`
-`ggit commit -m [comments]`
+`git add [file name]`
+`git commit -m [comments]`
 
 ### Step 3: Push the commit
 
 #### creates a remote with customized name pointing at the GitHub repository
 
-`ggit remote add [remote name] https://github.com/[username]/[reponsitory name].git`
+`git remote add [remote name] https://github.com/[username]/[reponsitory name].git`
 
 #### send the commits in the [branch] to GitHub
 
-`ggit push [remote name] [branch]
+`git push [remote name] [branch]
 
 ## Delete a file
 
 ### Step 1: Open a terminal, go to the right directory 
 
-`ggit rm [file name and extension]`
+`git rm [file name and extension]`
 
 ### Step 2: Commite the change
 
-`ggit commit -m "[comments]"`
+`git commit -m "[comments]"`
 
 ### Step 3: Push the commit
 
-`ggit push [remote name] [branch]`
+`git push [remote name] [branch]`
 
 ## Work on other`gs repository: Folk a repo
 
@@ -46,7 +46,7 @@ GitHub Basic Commands
 
 ### Step 2: Clone it to local computer. Go to the root GitHub directory on your computer, and
 
-`ggit clone [HTTP clone link]`
+`git clone [HTTP clone link]`
 
 ### Step 3: Confiture remotes
 
@@ -54,22 +54,22 @@ GitHub Basic Commands
 `gcd [other`s repository folder name]`
 
 * assign the repository to a new remote name:
-`ggit remote add [new remote name] [the other`s repository GitHub link, such as 
+`git remote add [new remote name] [the other`s repository GitHub link, such as 
  http://github.com/MathCraft/shifrin-mathematica-book.git]`g
 
 * Pulls in changes not present in local repository:
-`ggit fetch [new remote name]`
+`git fetch [new remote name]`
 
 ## Remotes management
 
 ### View existing remotes
-`ggit remote -v`
+`git remote -v`
 
 ### Renaming a remote
-`ggit remote rename [old remote name] [new remote name]
+`git remote rename [old remote name] [new remote name]`
 
 ### Removing a remote
-`ggit remote rm [remote name]`
+`git remote rm [remote name]`
 
 
 
